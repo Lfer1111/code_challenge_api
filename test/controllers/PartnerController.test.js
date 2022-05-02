@@ -10,14 +10,8 @@ describe("Test para PartnerController", () => {
         expect(emailsStudents).toContain("Todd@visualpartnership.xyz");
     });
     test("Test 3. Estudiantes con creditos mayores a 500", () => {
-<<<<<<< HEAD
         const studentsHighCredit = PartnerController.getHighCreditsStudents(500);
         expect(studentsHighCredit.length).toBeGreaterThanOrEqual(27);
     });
-=======
-        const studentsHighCredit = PartnerController.getHighCreditsStudents(500)
-        expect(studentsHighCredit.length).toBeGreaterThanOrEqual(27)
-    })
->>>>>>> f8b5cb0f3bcd687befbfe76507490db10d9ad62b
 
 });
