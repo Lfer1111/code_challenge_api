@@ -14,7 +14,7 @@ describe("Test para PartnerService", () => {
     })
     test("Test 3. Estudiantes con creditos mayores a 500", () => {
         const students = Reader.readJsonFile("visualpartners.json")
-        const studentsHighCredit = PartnerService.highCreditsStudents(students)
+        const studentsHighCredit = PartnerService.highCreditsStudents(students, 500)
         expect(studentsHighCredit.length).toBeGreaterThanOrEqual(27)
     })
 

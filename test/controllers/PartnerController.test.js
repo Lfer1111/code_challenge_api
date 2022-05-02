@@ -10,7 +10,7 @@ describe("Test para PartnerController", () => {
         expect(emailsStudents).toContain("Todd@visualpartnership.xyz")
     })
     test("Test 3. Estudiantes con creditos mayores a 500", () => {
-        const studentsHighCredit = PartnerController.getHighCreditsStudents()
+        const studentsHighCredit = PartnerController.getHighCreditsStudents(500)
         expect(studentsHighCredit.length).toBeGreaterThanOrEqual(27)
     })
 
