@@ -15,7 +15,7 @@
 >
 > Aqui se encuenta el DB visualpartners.json y el package.json
 >
-> Tambien se encuentran el archivo de rules del eslint y el gitignore
+> Tambien se encuentran el archivo de rules del eslint, el gitignore y el archivo que ejecuta las pruebas automatizadas
 >
 >> Carpeta lib
 >>> En la carpeta lib encontramos los archivos logicos donde estan las clases, desde el Reader hasta el controlador
