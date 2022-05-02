@@ -13,9 +13,16 @@ describe("Test para PartnerService", () => {
         expect(emailsStudents).toContain("Todd@visualpartnership.xyz");
     });
     test("Test 3. Estudiantes con creditos mayores a 500", () => {
+<<<<<<< HEAD
         const students = Reader.readJsonFile("visualpartners.json");
         const studentsHighCredit = PartnerService.highCreditsStudents(students, 500);
         expect(studentsHighCredit.length).toBeGreaterThanOrEqual(27);
     });
+=======
+        const students = Reader.readJsonFile("visualpartners.json")
+        const studentsHighCredit = PartnerService.highCreditsStudents(students, 500)
+        expect(studentsHighCredit.length).toBeGreaterThanOrEqual(27)
+    })
+>>>>>>> f8b5cb0f3bcd687befbfe76507490db10d9ad62b
 
 });
